@@ -8,6 +8,7 @@
 
         n1 = converterNumero(n1);
         n2 = converterNumero(n2);
+ 
         const selector = document.getElementById("selector").value;
 
 
@@ -41,4 +42,5 @@
     function clearData() {
         n1.value = "";
         n2.value = "";
+        resultado.innerHTML = "";
     }
